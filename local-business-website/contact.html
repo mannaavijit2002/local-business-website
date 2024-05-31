@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitFusion - Contact Us</title>
+    <link
+      rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <style>
+      .navbar {
+        padding: 1rem 2rem;
+        background: transparent !important;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+      }
+      .navbar .nav-link,
+      .navbar .navbar-brand {
+        color: white !important;
+      }
+      .hero-section .container {
+          max-width: 600px;
+      }
+
+      .hero-section h1 {
+          font-size: 3rem;
+          margin-bottom: 1rem;
+      }
+
+      .hero-section p {
+          font-size: 1.2rem;
+          margin-bottom: 2rem;
+      }
+
+      .hero-section .btn {
+          font-size: 1.2rem;
+          padding: 0.75rem 1.5rem;
+      }
+      .hero-section {
+        height: 100vh;
+        background: url('images/hero-background.jpg') no-repeat center center/cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        position: relative;
+      }
+      .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensure the image covers the entire container */
+      }
+      body {
+        background: url('images/hero-background.jpg') no-repeat center center/cover;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+      }
+      .container {
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 5px;
+        border-radius: 8px;
+        max-width: 350px;
+        width: 95%;
+      }
+      .form-group label {
+        color: #fff;
+      }
+      .form-control {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      .form-control::placeholder {
+        color: #ccc;
+      }
+      .form-control:focus {
+        background-color: rgba(255, 255, 255, 0.4);
+        color: #000;
+      }
+      .btn-primary {
+        background-color: rgba(0, 123, 255, 0.75);
+        border: none;
+      }
+      .btn-primary:hover {
+        background-color: rgba(0, 123, 255, 1);
+      }
+      footer {
+        background: transparent;
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        z-index: 10;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">FitFusion</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="https://formsubmit.co/d797a53f5eec9cf7a57e1901347fe458" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            name="message"
+            rows="3"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+    </div>
+    <footer>
+      <p>&copy; 2024 FitFusion. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

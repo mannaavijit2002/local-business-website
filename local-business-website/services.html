@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitFusion - Services</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            background: url('images/hero-background.jpg') no-repeat center center/cover;
+        }
+        .hero-section .container {
+            max-width: 600px;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero-section .btn {
+            font-size: 1.2rem;
+            padding: 0.75rem 1.5rem;
+        }
+        .navbar {
+            padding: 1rem 2rem;
+            background: transparent !important;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 10;
+        }
+        .navbar .nav-link, .navbar .navbar-brand {
+            color: white !important;
+        }
+        .services-section {
+            flex-grow: 1;
+            padding-top: 80px;
+        }
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .service-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            margin: 0.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            box-sizing: border-box;
+            color: white;
+        }
+        .service-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        .service-card p {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+        footer {
+            background: transparent;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">FitFusion</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="services-section">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>Group Classes</h3>
+                <p>Join our energetic group classes including HIIT, Strength Training, and Yoga to stay motivated and achieve your fitness goals.</p>
+            </div>
+            <div class="service-card">
+                <h3>Personal Training</h3>
+                <p>Work one-on-one with our certified trainers to create customized fitness plans tailored to your needs and goals.</p>
+            </div>
+            <div class="service-card">
+                <h3>Special Programs</h3>
+                <p>Our special programs focus on specific goals such as weight loss, muscle gain, and improved endurance.</p>
+            </div>
+            <div class="service-card">
+                <h3>Equipment</h3>
+                <p>We offer state-of-the-art cardio machines and weight training equipment to support all your workout needs.</p>
+            </div>
+            <div class="service-card">
+                <h3>Wellness</h3>
+                <p>Enjoy our wellness services including massage therapy and nutrition counseling to support your overall health and well-being.</p>
+            </div>
+            <div class="service-card">
+                <h3>Membership</h3>
+                <p>Choose from a variety of flexible membership plans, including individual, family, and corporate options.</p>
+            </div>
+            <div class="service-card">
+                <h3>Community</h3>
+                <p>Become part of our fitness community with access to exclusive events, challenges, and social activities.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FitFusion. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
